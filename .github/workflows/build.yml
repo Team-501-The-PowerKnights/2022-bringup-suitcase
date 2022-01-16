@@ -1,0 +1,15 @@
+name: build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: wpilib/roborio-cross-ubuntu:2022-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          chmod +x gradlew
+          ./gradlew build
