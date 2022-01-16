@@ -104,7 +104,7 @@ task writeBuildInfo {
             folder.mkdirs()
         }
 
-        new File("src/main/java/frc/robot/config/CodeVersionInfo.java").text = """\
+        new File("src/main/java/frc/robot/config/BuildVersionInfo.java").text = """\
 /*----------------------------------------------------------------------------*/
 /* Copyright (c) ${year} Team 501 - The PowerKnights. All Rights Reserved.       */
 /* Open Source Software - may be modified and shared by FRC teams. The code   */
@@ -122,12 +122,10 @@ package frc.robot.config;
  * Unfortunately, Git doesn't provide a way to automate this the way other CM
  * tools do with keyword expansions.
  **/
-public class CodeVersionInfo {
+public class BuildVersionInfo {
     public static final String programmer = "${name}";
     public static final String commitSHA = "${sha}";
     public static final String timeStamp = "${time}";
-
-    public static final String version = "501-Robot ${sha} ${time} ${name}";
 }
 """
     }
