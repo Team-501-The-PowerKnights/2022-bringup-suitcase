@@ -17,8 +17,8 @@ package frc.robot.config;
  **/
 public class CodeVersionInfo {
     public static final String programmer = "Matt Gleich";
-    public static final String commitSHA = "0521ab8";
-    public static final String timeStamp = "20220115 120232";
+    public static final String commitSHA = "45a9130";
+    public static final String timeStamp = "20220116 120504";
 
-    public static final String version = "501-Robot 0521ab8 20220115 120232 Matt Gleich";
+    public static final String version = "501-Robot 45a9130 20220116 120504 Matt Gleich";
 }
