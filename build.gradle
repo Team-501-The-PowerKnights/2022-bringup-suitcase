@@ -122,7 +122,7 @@ package frc.robot.config;
  * Unfortunately, Git doesn't provide a way to automate this the way other CM
  * tools do with keyword expansions.
  **/
-public class CodeVersionInfo {
+public class BuildVersionInfo {
     public static final String programmer = "${name}";
     public static final String commitSHA = "${sha}";
     public static final String timeStamp = "${time}";

@@ -15,10 +15,8 @@ package frc.robot.config;
  * Unfortunately, Git doesn't provide a way to automate this the way other CM
  * tools do with keyword expansions.
  **/
-public class CodeVersionInfo {
+public class BuildVersionInfo {
     public static final String programmer = "Matt Gleich";
-    public static final String commitSHA = "45a9130";
-    public static final String timeStamp = "20220116 120504";
-
-    public static final String version = "501-Robot 45a9130 20220116 120504 Matt Gleich";
+    public static final String commitSHA = "d33b10b";
+    public static final String timeStamp = "20220116 151429";
 }
