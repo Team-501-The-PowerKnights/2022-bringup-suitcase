@@ -39,8 +39,6 @@ deploy {
     }
 }
 
-// here is a change
-
 def deployArtifact = deploy.targets.roborio.artifacts.frcJava
 
 // Set to true to use debug for JNI.
