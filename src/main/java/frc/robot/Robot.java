@@ -14,9 +14,9 @@ package frc.robot;
 
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import riolog.RioLogger;
 
-import org.slf4j.Logger;
+import riolog.PKLogger;
+import riolog.RioLogger;
 
 
 /**
@@ -27,7 +27,7 @@ import org.slf4j.Logger;
  */
 public class Robot extends TimedRobot {
 
-  static Logger logger = RioLogger.getLogger(Robot.class.getName());
+  static PKLogger logger = RioLogger.getLogger(Robot.class.getName());
 
   /**
    * This function is run when the robot is first started up and should be used for any
