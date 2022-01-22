@@ -8,19 +8,17 @@
 
 package frc.robot;
 
-
 import org.slf4j.Logger;
 
 import frc.robot.config.VersionInfo;
 
 import riolog.RioLogger;
 
-
 /**
  * This class is used to provide a wrapper on the WPILib stuff, and a way to get
  * some personalization and configuration info injected into the dashboard and
  * log files.
- * 
+ *
  * It should not be controlled in Git, and be sure to add to the .gitignore
  */
 public class Team501Robot extends Robot {

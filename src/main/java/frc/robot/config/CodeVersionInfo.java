@@ -9,7 +9,8 @@
 package frc.robot.config;
 
 /**
- * This class provides a code versioning string that can be used to determine the
+ * This class provides a code versioning string that can be used to determine
+ * the
  * build pedigree of a robot as loaded on the roboRIO.
  **/
 class CodeVersionInfo {

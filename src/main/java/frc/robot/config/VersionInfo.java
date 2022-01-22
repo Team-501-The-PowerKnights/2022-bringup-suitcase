@@ -15,11 +15,7 @@ package frc.robot.config;
 public class VersionInfo {
 
     // Provides a version string that gets incorporated into build
-    public static final String version = 
-        new StringBuilder("").
-        append("501-Robot").append(" ").
-        append(CodeVersionInfo.version).append(" ").
-        append(BuildVersionInfo.programmer).append(" ").
-        append(BuildVersionInfo.timeStamp).append(" ").
-        append(BuildVersionInfo.commitSHA).toString();
+    public static final String version = new StringBuilder("").append("501-Robot").append(" ")
+            .append(CodeVersionInfo.version).append(" ").append(BuildVersionInfo.programmer).append(" ")
+            .append(BuildVersionInfo.timeStamp).append(" ").append(BuildVersionInfo.commitSHA).toString();
 }
