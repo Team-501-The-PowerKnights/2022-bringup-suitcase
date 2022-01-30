@@ -13,6 +13,7 @@
 package frc.robot;
 
 
+import edu.wpi.first.wpilibj.Preferences;
 import edu.wpi.first.wpilibj.TimedRobot;
 
 import riolog.PKLogger;
@@ -37,6 +38,12 @@ public class Robot extends TimedRobot {
   public void robotInit() {
     System.out.println("robotInit()");
     logger.info("robotInit()");
+
+    // Create a preference just to get the file initialized
+    if (!Preferences.containsKey("Test_Pref")) {
+      logger.warn("{} doesn't exist; creating with default", "Test_Pref");
+      Preferences.setDouble("Test_Pref", 0.0);
+    }
   }
 
   /**
